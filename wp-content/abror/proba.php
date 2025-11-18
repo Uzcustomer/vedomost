@@ -1062,7 +1062,7 @@ function exportExcel(type) {
     
     // ✅ SHARTLI URL
     const url = (type === 'yn_oldi') 
-        ? 'yn_oldi_pdf.php?' + params.toString() 
+        ? 'yn_oldi_word.php?' + params.toString()
         : 'excel_export.php?' + params.toString();
     
     fetch(url)
